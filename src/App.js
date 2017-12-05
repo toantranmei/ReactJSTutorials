@@ -8,12 +8,14 @@ class App extends Component {
     return (
       <div className="wrapper">
         <Header />
-        <div className="row">
-          <div className="col-sm-6 col-xs-12 col-md-6 col-lg-6">
-            <Product />
-          </div>
-          <div className="col-sm-6 col-xs-12 col-md-6 col-lg-6">
-            <Product />
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-6 col-xs-12 col-md-6 col-lg-6">
+              <Product />
+            </div>
+            <div className="col-sm-6 col-xs-12 col-md-6 col-lg-6">
+              <Product />
+            </div>
           </div>
         </div>
       </div>
